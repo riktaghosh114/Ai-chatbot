@@ -1,0 +1,30 @@
+# Ignore virtual environment
+.venv/
+venv/
+ENV/
+
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# If using pytest or coverage
+.pytest_cache/
+.coverage
+htmlcov/
